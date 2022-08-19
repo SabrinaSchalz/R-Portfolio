@@ -1,0 +1,85 @@
+#bird litter survey
+
+setwd("C:/Users/slyth/Documents/Uni/R")
+library(ggplot2)
+library(gridExtra)
+
+#Foraging by species
+
+daten<-read.table("Birds Food.csv",header=TRUE,sep=";")
+daten
+
+order<-c("Blackbird", "Gardenbird", "Starling", "Magpie", "Pigeon", "Crow", "Gull")
+
+food<-ggplot(data=daten, aes(x=ï..Bird, y=Observations, fill=Food)) +
+  geom_bar(position = "stack", stat="identity") + theme(axis.text=element_text(size=8)) +
+  xlab("") + ylim(0, 15) + ggtitle("Food Types by Species Group") + scale_x_discrete(limits = order)
+
+
+
+food
+
+#Foraging by location
+daten<-read.table("Food Location.csv",header=TRUE,sep=";")
+daten
+
+order<-c("Blackbird", "Gardenbird", "Starling", "Magpie", "Pigeon", "Crow", "Gull")
+
+location<-ggplot(data=daten, aes(x=ï..Bird, y=Observations, fill=Location)) +
+  geom_bar(position = "stack", stat="identity") + theme(axis.text=element_text(size=8)) +
+  xlab("") + ylim(0, 15) + ggtitle("Foraging Locations by Species Group") + scale_x_discrete(limits = order)
+
+
+
+location
+
+#Participant age
+daten<-read.table("Age.csv",header=TRUE,sep=";")
+daten
+
+age<-ggplot(data=daten, aes(x=ï..Age, y=N)) +
+  geom_bar(stat="identity") + xlab("Age") + ylab("Number of Participants")+ ylim(0, 15)
+age
+
+#Participant education
+daten<-read.table("Education.csv",header=TRUE,sep=";")
+daten
+
+order<-c("None", "Secondary", "College/Sixth Form", "Bachelor", "Master", "PhD")
+
+education<-ggplot(data=daten, aes(x=ï..Age, y=N)) + 
+  geom_bar(stat="identity") + scale_x_discrete(limits = order) + xlab("Highest Level of Education") + ylab("Number of Participants")+ ylim(0, 20) + theme(axis.text=element_text(size=8))
+education
+
+#Participant income
+daten<-read.table("Income.csv",header=TRUE,sep=";")
+daten
+
+order<-c("Less than 20", "20 - 40", "40 - 60", "60 - 80", "More than 80")
+
+
+income<-ggplot(data=daten, aes(x=ï..Age, y=N)) + 
+  geom_bar(stat="identity") + scale_x_discrete(limits = order) + xlab("Annual Household Income") + ylab("Number of Participants")+ ylim(0, 20) + theme(axis.text=element_text(size=8))
+income
+
+#Birdwatching distribution
+daten<-read.table("Birdwatching.csv",header=TRUE,sep=";")
+daten
+
+order<-c("Never", "Less than monthly", "Monthly", "Weekly", "Several times a week")
+
+
+birdwatching<-ggplot(data=daten, aes(x=ï..Age, y=N)) + 
+  geom_bar(stat="identity") + scale_x_discrete(limits = order) + xlab("Birdwatching Frequency") + ylab("Number of Participants")+ ylim(0, 20) + theme(axis.text=element_text(size=8))
+birdwatching
+
+#Litter data
+daten<-read.table("Litter.csv",header=TRUE,sep=";")
+daten
+
+order<-c("Never", "Rarely", "Sometimes", "Often", "Very Often")
+
+
+litter<-ggplot(data=daten, aes(x=ï..Age, y=N, fill=Type)) + 
+  geom_bar(position = "dodge", stat="identity") + scale_x_discrete(limits = order) + xlab("") + ylab("Number of Participants")+ ylim(0, 25) + theme(axis.text=element_text(size=8))
+litter
