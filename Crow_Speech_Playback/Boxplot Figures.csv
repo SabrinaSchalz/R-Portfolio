@@ -1,0 +1,25 @@
+﻿Site,Stimulus,Response,Count
+London,English,Looking,1
+London,Vietnamese,Looking,6
+London,Parakeet,Looking,3
+London,English,Walking,5
+London,Vietnamese,Walking,3
+London,Parakeet,Walking,0
+London,English,Flying,3
+London,Vietnamese,Flying,4
+London,Parakeet,Flying,1
+London,English,None,11
+London,Vietnamese,None,7
+London,Parakeet,None,16
+Milton Keynes,English,Looking,5
+Milton Keynes,Vietnamese,Looking,2
+Milton Keynes,Pigeon,Looking,2
+Milton Keynes,English,Walking,3
+Milton Keynes,Vietnamese,Walking,2
+Milton Keynes,Pigeon,Walking,3
+Milton Keynes,English,Flying,4
+Milton Keynes,Vietnamese,Flying,6
+Milton Keynes,Pigeon,Flying,1
+Milton Keynes,English,None,6
+Milton Keynes,Vietnamese,None,8
+Milton Keynes,Pigeon,None,12

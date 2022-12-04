@@ -1,0 +1,115 @@
+﻿Site,Trial,Section,Group,Response,Scale
+London,1,1,Speech,Looking,2
+London,2,1,Speech,Walking,3
+London,3,1,Control,Flying,4
+London,4,1,Speech,None,1
+London,5,1,Speech,None,1
+London,6,1,Control,None,1
+London,7,1,Speech,Looking,2
+London,8,1,Speech,Flying,4
+London,9,1,Control,None,1
+London,10,1,Speech,Looking,2
+London,11,1,Speech,None,1
+London,12,1,Control,None,1
+London,13,1,Speech,None,1
+London,14,1,Speech,None,1
+London,15,1,Control,None,1
+London,16,1,Speech,None,1
+London,17,1,Control,None,1
+London,18,1,Speech,Flying,4
+London,19,1,Speech,None,1
+London,20,1,Control,Looking,2
+London,21,2,Speech,Flying,4
+London,22,2,Speech,Flying,4
+London,23,2,Control,None,1
+London,24,2,Speech,Flying,4
+London,25,2,Speech,Flying,4
+London,26,2,Speech,None,1
+London,27,2,Control,None,1
+London,28,2,Speech,Flying,4
+London,29,2,Speech,None,1
+London,30,2,Control,None,1
+London,31,2,Speech,Walking,3
+London,32,2,Speech,Looking,2
+London,33,2,Control,Looking,2
+London,34,2,Speech,Looking,2
+London,35,2,Speech,Walking,3
+London,36,2,Control,None,1
+London,37,2,Speech,Looking,2
+London,38,2,Speech,Walking,3
+London,39,2,Control,None,1
+London,40,2,Speech,Looking,2
+London,41,3,Speech,None,1
+London,42,3,Control,None,1
+London,43,3,Speech,None,1
+London,44,3,Speech,Walking,3
+London,45,3,Control,Looking,2
+London,46,3,Speech,Walking,3
+London,47,3,Speech,Walking,3
+London,48,3,Control,None,1
+London,49,3,Speech,Walking,3
+London,50,3,Speech,None,1
+London,51,3,Control,None,1
+London,52,3,Speech,None,1
+London,53,3,Speech,None,1
+London,54,3,Control,None,1
+London,55,3,Speech,None,1
+London,56,3,Speech,None,1
+London,57,3,Control,None,1
+London,58,3,Speech,None,1
+London,59,3,Speech,None,1
+London,60,3,Control,None,1
+Milton Keynes,1,1,Speech,None,1
+Milton Keynes,2,1,Speech,Looking,2
+Milton Keynes,3,1,Speech,None,1
+Milton Keynes,4,1,Control,None,1
+Milton Keynes,5,1,Speech,None,1
+Milton Keynes,6,1,Speech,Looking,2
+Milton Keynes,7,1,Speech,None,1
+Milton Keynes,8,1,Control,Looking,2
+Milton Keynes,9,1,Speech,Flying,4
+Milton Keynes,10,1,Control,None,1
+Milton Keynes,11,1,Control,None,1
+Milton Keynes,12,1,Speech,Flying,4
+Milton Keynes,13,1,Speech,Flying,4
+Milton Keynes,14,1,Control,Walking,3
+Milton Keynes,15,1,Control,Flying,4
+Milton Keynes,16,1,Speech,None,1
+Milton Keynes,17,1,Speech,Flying,4
+Milton Keynes,18,1,Speech,Flying,4
+Milton Keynes,19,1,Speech,None,1
+Milton Keynes,20,1,Speech,Flying,4
+Milton Keynes,21,2,Speech,Flying,4
+Milton Keynes,22,2,Control,None,1
+Milton Keynes,23,2,Speech,None,1
+Milton Keynes,24,2,Speech,Walking,3
+Milton Keynes,25,2,Speech,Flying,4
+Milton Keynes,26,2,Control,None,1
+Milton Keynes,27,2,Control,Walking,3
+Milton Keynes,28,2,Speech,Flying,4
+Milton Keynes,29,2,Speech,None,1
+Milton Keynes,30,2,Speech,None,1
+Milton Keynes,31,2,Speech,Walking,3
+Milton Keynes,32,2,Control,None,1
+Milton Keynes,33,2,Speech,None,1
+Milton Keynes,34,2,Control,None,1
+Milton Keynes,35,2,Speech,None,1
+Milton Keynes,36,2,Control,None,1
+Milton Keynes,37,2,Speech,None,1
+Milton Keynes,38,2,Control,Walking,3
+Milton Keynes,39,2,Speech,Looking,2
+Milton Keynes,40,2,Speech,Walking,3
+Milton Keynes,41,3,Control,None,1
+Milton Keynes,42,3,Speech,None,1
+Milton Keynes,43,3,Speech,Walking,3
+Milton Keynes,44,3,Speech,Flying,4
+Milton Keynes,45,3,Speech,Walking,3
+Milton Keynes,46,3,Control,None,1
+Milton Keynes,47,3,Control,None,1
+Milton Keynes,48,3,Speech,None,1
+Milton Keynes,49,3,Control,None,1
+Milton Keynes,50,3,Speech,Looking,2
+Milton Keynes,51,3,Speech,Looking,2
+Milton Keynes,52,3,Control,Looking,2
+Milton Keynes,53,3,Speech,Looking,2
+Milton Keynes,54,3,Speech,Looking,2
