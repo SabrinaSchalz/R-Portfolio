@@ -1,12 +1,11 @@
 
 R scripts and graphs, mainly using the tidyverse package. Includes samples from my own published papers and preprints, as well as newer open source dataset projects started after 19th August 2022.
 
-litter foraging data (own preprint): https://www.biorxiv.org/content/10.1101/2021.11.16.468840v1
-crow complaints / crow opinion survey (own published paper): https://www.researchgate.net/publication/356727449_Attitudes_and_Behaviours_Towards_Carrion_Crows_in_London
-forced choice psychology experiment cats: https://escholarship.org/uc/item/304034cn
-Titanic: Kaggle competition, 0.775 accuracy
-k-means clustering birds by song: unpublished data collected by Warren-Horrod Wilson in joint project
-US census data exploration: based on open-source data not included here
+Advent of Code 2022: https://adventofcode.com/
+Behaviours Towards Crows Survey (own published paper): https://www.researchgate.net/publication/356727449_Attitudes_and_Behaviours_Towards_Carrion_Crows_in_London
+Crow Speech Playback (own paper currently under review)
+Litter Foraging (own preprint): https://www.biorxiv.org/content/10.1101/2021.11.16.468840v1
 
-
-Call outcomes predictor script does not come with data included
+Psychology experiment cats (humans discriminating cat voices): https://escholarship.org/uc/item/304034cn
+K-means clustering birds by song: unpublished data collected by Warren-Horrod Wilson in joint project
+Call outcomes predictor script - written for industry data, not open-source
