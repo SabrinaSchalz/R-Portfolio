@@ -1,8 +1,9 @@
 library(tidyverse)
 library(corrr)
 
+#dataset with calls
 daten1<-read_csv("calls.csv")
-
+#datasets with participations / call outcomes
 daten2<-read_csv("parts.csv")
 
 #join datasets
@@ -177,7 +178,7 @@ cor
 
 write.csv(disp,"call_data.csv")
 
-###break here####
+###round 2, starting fresh####
 
 daten<-read_csv("call_data.csv")
 
