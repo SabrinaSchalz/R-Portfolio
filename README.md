@@ -14,6 +14,8 @@ Crow Speech Playback: this is the code I used to analyse and plot the data I col
 
 Litter Foraging: this is the code I used to analyse our citizen science survey on birds foraging in litter. The preprint is uploaded here: https://www.biorxiv.org/content/10.1101/2021.11.16.468840v1 and the blog post summarizing our data is here: https://sabrinaschalz.wordpress.com/2022/12/09/birds-foraging-in-litter/
 
+TidyTuesday: A weekly data project aimed at the R ecosystem: https://github.com/rfordatascience/tidytuesday
+
 Psychology experiment cats: this is the code I used to analyse data from an experiment with human participants tasked to discriminate cats (and in a different version, crows) by their voices. The paper can be found here: https://escholarship.org/uc/item/304034cn
 
 K-means clustering birds by song: this is the script I used to analyse unpublished data collected by Warren-Horrod Wilson in joint project. The aim was to find clusters of acoustic parameters in crow calls.
