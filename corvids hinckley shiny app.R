@@ -1,7 +1,3 @@
-
-#setwd("C:/Users/slyth/Documents/R/Shiny/Corvids Hinckley")
-#deployApp()
-
 library(tidyverse)
 library(mapview)
 library(shiny)
